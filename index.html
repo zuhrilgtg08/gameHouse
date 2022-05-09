@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Z-Game House</title>
+    <!-- Fav Icon -->
+    <link rel="shortcut Icon" href="images/fav.png" type="image/x-icon">
+    <!-- Box-icons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- swiper-css -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!--My Style css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- scroll-bar -->
+    <div class="progress">
+        <div class="progress-bar" id="scroll-bar"></div>
+    </div>
+
+    <!-- Awal-Header -->
+    <header>
+        <div class="nav container">
+            <a href="index.html" class="logo">Games<span>House</span></a>
+            <div class="nav-icons">
+                <i class='bx bx-bell bx-tada' id="bell-icon"><span></span></i>
+                <i class='bx bxs-download'></i>
+                <div class="menu-icons">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+
+            <!-- menu -->
+            <div class="menu">
+                <img src="images/menu.png" alt="menu">
+                <div class="navbar">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#trending">Trending</a></li>
+                    <li><a href="#new">New Games</a></li>
+                    <li><a href="#coming">Coming Soon</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </div>
+            </div>
+
+            <!-- Notifikasi -->
+            <div class="notifikasi">
+                <div class="kotak-notifikasi">
+                    <i class='bx bxs-check-circle'></i>
+                    <p>Yeah selamat, Game Kamu berhasil di download.</p>
+                </div>
+                <div class="kotak-notifikasi box-color">
+                    <i class='bx bxs-x-circle'></i>
+                    <p>Maaf, Perubahan tidak bisa diubah.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Akhir-Header -->
+
+    <!-- awal-section-home -->
+    <section class="home container" id="home">
+        <img src="images/home.png" alt="home-page">
+        <div class="home-text">
+            <h1>PLAY AND BE A <br> WINNER </h1>
+            <a href="#" class="btn" target="__blank">Play Now</a>
+        </div>
+    </section>
+    <!-- akhir-section-home -->
+
+    <!-- awal-section-trending -->
+    <section class="trending container" id="trending">
+        <div class="heading">
+            <i class="bx bxs-flame"></i>
+            <h2>Trending Now</h2>
+        </div>
+
+        <!-- isi-content -->
+        <div class="trending-content swiper">
+            <div class="swiper-wrapper">
+
+                <!-- slide-1 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/trending1.webp" alt="1">
+                        <div class="text-box">
+                            <h2>Cyberpunk 2077</h2>
+                            <h3>Action, RPG</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bxs-star"></i>
+                                    <span>4.8</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-info-circle'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- slide-2 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/trending2.jpg" alt="2">
+                        <div class="text-box">
+                            <h2>Battlefield 2042</h2>
+                            <h3>First person shooter</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bxs-star"></i>
+                                    <span>4.7</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-info-circle'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- slide-3 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/trending3.jpg" alt="3">
+                        <div class="text-box">
+                            <h2>Assassin's Creed</h2>
+                            <h3>Adventure, Action</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bxs-star"></i>
+                                    <span>4.6</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-info-circle'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- slide-4 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/trending4.jpg" alt="4">
+                        <div class="text-box">
+                            <h2>Ghost of Tsushima</h2>
+                            <h3>Adventure</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bxs-star"></i>
+                                    <span>4.5</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-info-circle'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- slide-5 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/trending5.png" alt="5">
+                        <div class="text-box">
+                            <h2>GTA V</h2>
+                            <h3>Open World, Action</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bxs-star"></i>
+                                    <span>4.9</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-info-circle'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- slide-6 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/trending6.jpg" alt="6">
+                        <div class="text-box">
+                            <h2>Dying Light 2</h2>
+                            <h3>Survival Horror</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bxs-star"></i>
+                                    <span>4.4</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-info-circle'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- slide-7 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/trending7.png" alt="7">
+                        <div class="text-box">
+                            <h2>Halo Infinite</h2>
+                            <h3>First person shooter</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bxs-star"></i>
+                                    <span>4.3</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-info-circle'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- slide-8 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/trending8.png" alt="8">
+                        <div class="text-box">
+                            <h2>Resident Evil Village</h2>
+                            <h3>Survival Horror</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bxs-star"></i>
+                                    <span>4.9</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-info-circle'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- akhir-section-trending -->
+
+    <!-- awal-section-new -->
+    <section class="new container" id="new">
+        <div class="heading">
+            <i class="bx bx-game"></i>
+            <h2>New Games</h2>
+        </div>
+
+        <!-- isi-content -->
+        <div class="new-content">
+            <!-- new-1 -->
+            <div class="box">
+                <img src="images/tic-tac.png" alt="1">
+                <div class="text-box">
+                    <h2>Tic Tac Toe</h2>
+                    <h3>Simple Game</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <span>4.5</span>
+                        </div>
+                        <a href="list-games/TIC TAC TOE GAMES JAVASCRIPT/index.html" class="box-btn">
+                            <i class='bx bx-play'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- new-2 -->
+            <div class="box">
+                <img src="images/tetris.jpg" alt="2">
+                <div class="text-box">
+                    <h2>Tetris Game</h2>
+                    <h3>Relaxed Game</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <span>4.9</span>
+                        </div>
+                        <a href="list-games/TETRIS-GAME/index.html" class="box-btn"><i class='bx bx-play'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- new-3 -->
+            <div class="box">
+                <img src="images/gunting-batu-kertas.svg" alt="3">
+                <div class="text-box">
+                    <h2>Rock Paper Scissors</h2>
+                    <h3>Funny Game</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <span>4.5</span>
+                        </div>
+                        <a href="list-games/GUNTING-BATU-KERTAS/index.html" class="box-btn"><i
+                                class='bx bx-play'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- new-4 -->
+            <div class="box">
+                <img src="images/pairs-games.png" alt="4">
+                <div class="text-box">
+                    <h2>Pairs Game</h2>
+                    <h3>Children Game</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <span>4.8</span>
+                        </div>
+                        <a href="list-games/PAIRS-GAMES/index.html" class="box-btn"><i class='bx bx-play'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- new-5 -->
+            <div class="box">
+                <img src="images/brick.png" alt="5">
+                <div class="text-box">
+                    <h2>Brick Game</h2>
+                    <h3>Clasic Game</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <span>4.9</span>
+                        </div>
+                        <a href="list-games/BRICK_GAME/index.html" class="box-btn"><i class='bx bx-play'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- new-6 -->
+            <div class="box">
+                <img src="images/pingpong.png" alt="6">
+                <div class="text-box">
+                    <h2>Ping Pong Game</h2>
+                    <h3>Sport Game</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <span>4.8</span>
+                        </div>
+                        <a href="list-games/GAME-PINGPONG/index.html" class="box-btn"><i class='bx bx-play'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- new-7 -->
+            <div class="box">
+                <img src="images/snake-games.webp" alt="7">
+                <div class="text-box">
+                    <h2>Snake Game</h2>
+                    <h3>IQ Game</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <span>5.0</span>
+                        </div>
+                        <a href="list-games/SNAKE-GAMES/index.html" class="box-btn"><i class='bx bx-play'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- new-8 -->
+            <div class="box">
+                <img src="images/Racing-games.jpg" alt="8">
+                <div class="text-box">
+                    <h2>Cars Racing Game</h2>
+                    <h3>Traffic Cars Game</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <span>4.4</span>
+                        </div>
+                        <a href="list-games/RACE-CARS-GAME/index.html" class="box-btn"><i class='bx bx-play'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="next-page">
+            <a href="#"> Next Page</a>
+        </div>
+    </section>
+    <!-- akhir-section-new -->
+
+    <!-- awal-section-comingSoon -->
+    <section class="coming container" id="coming">
+        <div class="heading">
+            <i class='bx bx-code-alt'></i>
+            <h2>Coming Soon</h2>
+        </div>
+
+        <!-- isi-content -->
+        <div class="coming-content swiper">
+            <div class="swiper-wrapper">
+
+                <!-- slide-1 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/new1.jpg" alt="1">
+                        <div class="text-box">
+                            <h2>Subway Surfers</h2>
+                            <h3>Endless Game</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bxs-star"></i>
+                                    <span>4.8</span>
+                                </div>
+                                <a href="about-info_games/infoGame1.html" class="box-btn"><i class='bx bx-info-circle'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- slide-2 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/new2.jpg" alt="2">
+                        <div class="text-box">
+                            <h2>Call Of Duty : Mobile</h2>
+                            <h3>First person shooter, Action</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bxs-star"></i>
+                                    <span>4.7</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-info-circle'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- slide-3 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/new3.jpg" alt="3">
+                        <div class="text-box">
+                            <h2>Free Guy</h2>
+                            <h3>Adventure, Action</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bxs-star"></i>
+                                    <span>4.6</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-info-circle'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- slide-4 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/new4.jpg" alt="4">
+                        <div class="text-box">
+                            <h2>Clash Royale</h2>
+                            <h3>Story, Strategy</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bxs-star"></i>
+                                    <span>4.5</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-info-circle'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- slide-5 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/new5.png" alt="5">
+                        <div class="text-box">
+                            <h2>Minecraft</h2>
+                            <h3>Open World, Survival</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bxs-star"></i>
+                                    <span>4.9</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-info-circle'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- slide-6 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/new6.png" alt="6">
+                        <div class="text-box">
+                            <h2>PUBG Mobile</h2>
+                            <h3>Shooter, Action</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bxs-star"></i>
+                                    <span>4.4</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-info-circle'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- slide-7 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/new7.png" alt="7">
+                        <div class="text-box">
+                            <h2>Fornite</h2>
+                            <h3>First person shooter</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bxs-star"></i>
+                                    <span>4.3</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-info-circle'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- slide-8 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/new8.jpg" alt="8">
+                        <div class="text-box">
+                            <h2>Marvel Contest Of Champions</h2>
+                            <h3>Fighting Game</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bxs-star"></i>
+                                    <span>4.9</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-info-circle'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- akhir-section-comingSoon -->
+
+    <!-- awal-section-contact -->
+    <section class="contact container" id="contact">
+        <div class="heading">
+            <i class='bx bx-message-rounded'></i>
+            <h2>Contact us</h2>
+        </div>
+
+        <div class="row">
+            <div class="content-contact">
+                <div class="info">
+                    <h3><i class='bx bx-envelope'></i>zuhrilfahrizal08@gmail.com </h3>
+                    <h3><i class='bx bx-phone'></i>+62 823-3430-1164 </h3>
+                    <h3><i class='bx bx-current-location'></i>Surabaya, indonesia 3166-1. </h3>
+                </div>
+            </div>
+
+            <form action="">
+                <input type="text" placeholder="your name" class="box-contact">
+                <input type="email" placeholder="your email" class="box-contact">
+                <textarea name="" id="" cols="30" rows="10" class="box-contact message"
+                    placeholder="message"></textarea>
+                <button type="button" class="btn"> send <i class='bx bxs-send'></i></button>
+            </form>
+        </div>
+    </section>
+    <!-- akhir-section-contact -->
+
+    <!-- copyright -->
+    <div class="copyright container">
+        <a href="#" class="logo">Games <span>House</span></a>
+        <p>&#169; Ahmad Zuhril All Reserved</p>
+    </div>
+    <!-- copyright -->
+
+    <!-- swiper-js -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- My Script -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

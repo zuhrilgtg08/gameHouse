@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gunting, Batu, Kertas</title>
+
+    <!-- data aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1 data-aos="fade-down" data-aos-duration="500">Gunting, Batu, Kertas <span>2.0</span> </h1>
+
+    <!-- kotak-score -->
+    <div class="kotak-score">
+        <h1 id="score-bot" class="inline_block" data-toggle="tooltip" title="score-bot">0</h1>
+        <h1 class="inline_block">:</h1>
+        <h1 id="score-player" class="inline_block" data-toggle="tooltip" title="score-player">0</h1>
+    </div>
+
+    <!-- kotak-penentu -->
+    <div class="boxfocus hidden">
+        <div class="hasil-score">
+            <h1 id="hasil-score-object"></h1>
+            <h2>MENANG!</h2>
+            <h3 id="hasil-score-note"></h3>
+            <button type="button" name="tombol" id="close">OK!</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="area-bot">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Blue_question_mark_icon.svg/1200px-Blue_question_mark_icon.svg.png"
+                alt="batu" class="img-bot">
+        </div>
+        <div class="info"></div>
+        <div class="area-player">
+            <ul class="box-pilihan">
+                <li class="pilihan">
+                    <img src="images/batu.png" alt="batu" class="batu" data-toggle="tooltip">
+                </li>
+
+                <li class="pilihan">
+                    <img src="images/kertas.png" alt="kertas" class="kertas" data-toggle="tooltip">
+                </li>
+
+                <li class="pilihan">
+                    <img src="images/gunting.png" alt="gunting" class="gunting" data-toggle="tooltip">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <h2 class="good_luck">Good Luck!</h2>
+        <p class="credit">Created By Ahmad Zuhril | All Right Reserved</p>
+    </div>
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+    <!-- data-aoS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- my-script -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
